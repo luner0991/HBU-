@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* 页面头部样式开始 */
+.top {
+    width: 80%;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+.top .left {
+    display: flex;
+    align-items: flex-end;
+}
+.top .left .text {
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+.top .left .text h3 {
+    color: rgb(165, 41, 31);
+    font-size: 14px;
+}
+.top .right a {
+    color:rgb(165, 41, 31);
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.top .right a:hover {
+    color: blue;
+}
+/* 页面头部样式结束 */
+
+/* 导航栏样式开始 */
+.nav {
+    background-color:rgb(165, 41, 31);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.nav .link {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 3px 10px ;
+}
+.nav .link a {
+    color: white;
+    text-decoration: none;
+}
+/* 导航栏样式结束 */
+
+/* 页面中心布局开始 */
+.center {
+    display: flex;
+    width: 82%;
+    margin: auto;  
+    padding-top: 30px; 
+    margin-bottom: 25px;
+}
+
+.center .left {
+    width: 15%;
+    margin-right: 12px;
+}
+
+.center .cen {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.center .right {
+    width: 30%;
+}
+.center .right table{
+    width: 100%;
+    background-color: rgb(238,238,238);
+    text-indent: 10px;
+    color: rgba(0,0,0,0.7);
+
+}
+.center .right td{
+    height: 30px;
+
+}
+.center .right table tr:nth-child(odd) {
+    background-color: rgb(238, 238, 238); /* 灰色 */
+}
+
+.center .right table tr:nth-child(even) {
+    background-color:rgb(245,245,245); /* 白色 */
+}
+hr {
+    border: 1px solid rgba(0,0,0,0.1); /* 设置边框为黑色 */
+}
+.a {
+    background-color: rgb(129,194,222);  /* 设置背景颜色 */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.a h3 {
+    color: white;
+}
+.b {
+    background-color:rgb(254,194,15);  /* 设置背景颜色 */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.b h3 {
+    color: white;
+}
+.c {
+    background-color:rgb(191,214,47);  /* 设置背景颜色 */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.c h3 {
+    color: white;
+}
+.d {
+    background-color:rgb(47,163,220);  /* 设置背景颜色 */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.d h3 {
+    color: white;
+}
+
+.e{
+    display: flex;
+    margin: 11px 0px;
+    margin-bottom: 7px;
+
+}
+.f,.g,.h {
+    display: flex;
+    margin-bottom: 22px;
+    padding-top: 22px;
+    border-top: 1px dashed gray;
+
+}
+.e1,f1,g1,h1 
+{
+    display: flex;
+    flex-direction: column;
+}
+.e2,.f2,.g2,h2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 页面中心布局结束 */
+/* 军训专题开始 */
+.junxun {
+    background-image: url(materials/background.jpg);
+    width: 82%;
+    margin: auto;
+}
+.c2 {
+    display: flex;          /* 启用 Flexbox 布局 */
+    padding-bottom: 4px;
+}
+
+.c2 > div {
+    padding-right: 35px;
+    padding-top: 20px;
+}
+.c2 > p {
+    background-color: white;
+}
+
+/* 军训专题结束 */
+/* 底部样式开始 */
+.bottom {
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 160px;
+    margin-top: 20px;
+    background-color: rgb(157,42,28);
+
+}
+.leftt {
+   display: flex;
+   align-items: flex-end;
+  
+}
+
+.bottom .leftt .text {
+    margin-bottom: 2px;
+    margin-left: 4px;
+    font-size: 14px;
+}
+.bottom .leftt .text p {
+    color: rgba(255,255,255,0.7);
+}
+.rightt{
+    display: flex;
+}
+.rightt img{
+    padding-top: 25px;
+}
+.bottom .rightt .text {
+    padding-top: 45px;
+    padding-left: 5px;
+    color: rgba(255,255,255,0.8);
+    
+}
+/* 底部样式结束 */
